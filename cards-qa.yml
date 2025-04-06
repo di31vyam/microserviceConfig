@@ -14,7 +14,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  accounts:
+accounts:
   message: "Welcome to EazyBank accounts related QAAA APIs "
   contactDetails:
     name: "Smitha Ray - QA Lead"
