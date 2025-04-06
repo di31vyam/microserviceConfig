@@ -20,4 +20,4 @@ spring:
       ddl-auto: update
     show-sql: true
 contact:
-  name: Divyam Mahajan
+  name: Divyam Gupta
