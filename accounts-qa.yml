@@ -20,7 +20,7 @@ spring:
       ddl-auto: update
     show-sql: true
 build:
-  version: "2.0"
+  version: "3.0"
 
 accounts:
   message: "Welcome to EazyBank accounts related QAAA APIs "
