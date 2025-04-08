@@ -1,7 +1,9 @@
-
 server:
   port: 8080
 spring:
+  config:
+    activate:
+      on-profile: qa
   application:
     name: accounts
   datasource:
@@ -17,3 +19,16 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QAAA APIs "
+  contactDetails:
+    name: "Smitha Ray - QA Lead"
+    email: "smitha@eazybank.com"
+  onCallSupport:
+    - (666) 265-3765
+    - (666) 734-8371
+contact:
+  name: Divyam Gupta
